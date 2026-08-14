@@ -1,8 +1,8 @@
 Notes on RAG
 
 
-#Chunking
+# Chunking
 
-##Methods
+## Methods
 
-###Fixed-size chunking. 
+### Fixed-size chunking. 
