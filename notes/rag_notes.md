@@ -2,6 +2,7 @@ Notes on RAG
 
 
 # 1. Chunking
+Splitting documents into smaller passages before embedding, because retrieval and LLMs work better on focused pieces than whole documents. The main tradeoff is size: small chunks retrieve precisely but may lack context; large chunks carry more context but dilute relevance. Overlap (repeating a bit of text between adjacent chunks) reduces damage at boundaries. Methods, from crudest to most refined: fixed-size, recursive/structure-aware, layout-aware, sentence-window (small-to-big), semantic, and LLM-based. 
 
 ## Methods
 
